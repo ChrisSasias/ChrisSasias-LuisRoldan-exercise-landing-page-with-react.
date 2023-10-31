@@ -1,12 +1,51 @@
+.cards {
 
-/* 
+    display: flex;
+    margin-top: 40px;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.card {
+
+    display: flex;
+    margin: 5px;
+}
+
+.card-img-custom {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.navbar {
+    height: 50px;
+}
+
+.text {
+    color: white;
+    text-align: center;
+}
+
+.rounded {
+
+    margin-top: 20px;
+
+}
+
+.font-welcome {
+
+    font-weight: 400;
+}
+
+.footerstyle {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    height: 70px;
+    width: 100%;
+    border-radius: 0;
+}
