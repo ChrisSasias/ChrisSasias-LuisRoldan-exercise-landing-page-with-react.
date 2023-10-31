@@ -10,11 +10,19 @@ const Home = () => {
 			<Navbar />
 			<div className="container">
 				<Jumbotron />
-				<div className="cards">
-					<Card />
-					<Card />
-					<Card />
-					<Card />
+				<div className="row">
+					<div className="col-12 col-md-6 col-lg-3">
+						<Card />
+					</div>
+					<div className="col-12 col-md-6 col-lg-3">
+						<Card />
+					</div>
+					<div className="col-12 col-md-6 col-lg-3">
+						<Card />
+					</div>
+					<div className="col-12 col-md-6 col-lg-3">
+						<Card />
+					</div>
 				</div>
 			</div>
 			<Footer />
